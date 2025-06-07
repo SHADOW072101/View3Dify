@@ -1,0 +1,66 @@
+@import "tailwindcss";
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "poppins",sans-serif;
+}
+body{
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  background-color: #1d1e22;
+
+}
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 50px 50px 50px ;
+  border-radius: 8px;
+  box-shadow: inset 5px 5px 7px #0c0c0e,inset -5px -5px 7px #2e3036;
+}
+header{
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  padding: 25px;
+  text-shadow: 5px 5px 6px black;
+}
+input{
+  padding: 10px;
+  background-color: transparent;
+  /* text-align: center; */
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 4px;
+  box-shadow: 5px 5px 7px #0c0c0e,-5px -5px 7px #2e3036;
+  transition: .2s;
+}
+input:focus{
+  box-shadow: inset 5px 5px 7px #0c0c0e,inset -5px -5px 7px #2e3036;
+}
+button{
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 5px 5px 7px #0c0c0e,-5px -5px 7px #2e3036;
+
+}
+button:active{
+  box-shadow: inset 5px 5px 7px #0c0c0e,inset -5px -5px 7px #2e3036;
+}
+.forgot{
+  text-align: center;
+  color: white;
+  font-size: 12px;
+
+}
+.forgot a{
+  color: cyan;
+  /* text-decoration: none; */
+}
