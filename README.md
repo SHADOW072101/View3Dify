@@ -55,9 +55,6 @@ View3Dify/
 2. Use the upload feature to select a 3D model file.
 3. Interact with the model using mouse or touch controls.
 
-## Contributing
-
-Contributions are welcome! Please fork the repository and submit a pull request with your enhancements.
 
 ## License
 
