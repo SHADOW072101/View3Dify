@@ -56,10 +56,6 @@ View3Dify/
 3. Interact with the model using mouse or touch controls.
 
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ## Acknowledgments
 
 - [Three.js](https://threejs.org/) for 3D rendering capabilities.
